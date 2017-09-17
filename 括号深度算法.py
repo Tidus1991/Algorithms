@@ -6,7 +6,7 @@ Created on Sun Sep 10 20:38:38 2017
 """
 import re
 
-n=input('fuck me :')
+n = input('fuck me :')
 n = re.findall(r'.{1}',n)
 
 def func(n):
