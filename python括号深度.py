@@ -20,7 +20,6 @@ def func(n):
             x = 1
         else:
             x = 1
-    print(x,count)
     s = max([x,count])
     return s
 print(func(n))
