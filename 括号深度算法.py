@@ -10,20 +10,17 @@ n=input('fuck me :')
 n = re.findall(r'.{1}',n)
 
 def func(n):
-    x=1
-    count=0
-    for i in range (0,len(n)-1):
-        if n[i]==n[i+1]:
-            print('plus one')
+    x = 1
+    count = 0
+    for i in range (0,len(n) - 1):
+        if n[i] == n[i + 1]:
             x += 1
         elif x>count:
-            count=x
-            x=1
-            print('normal reset')
+            count = x
+            x = 1
         else:
-            x=1
-            print('huge reset')
+            x = 1
     print(x,count)
-    s=max([x,count])
+    s = max([x,count])
     return s
 print(func(n))
