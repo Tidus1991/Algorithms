@@ -12,10 +12,10 @@ class Solution(object):
         elif n == 2:
             return 2
         else:
-            frist = 1
+            first = 1
             second = 2
             for i in range (n-2):
                 nowstep = frist + second
-                frist = second
+                first = second
                 second = nowstep 
             return nowstep
