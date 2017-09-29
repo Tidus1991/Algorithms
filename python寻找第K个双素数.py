@@ -28,7 +28,7 @@ def found(K):
     count = 0
     i = 2
     while count != K:
-        if isPrime(i) and isPrime(int(reverse(i))):
+        if isPrime(i) and isPrime(reverse(i)):
             count += 1
             i += 1
         else:
