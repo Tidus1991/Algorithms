@@ -13,6 +13,7 @@ def reverse(a):
         f = a % 10
         z = a / 10
         return int(f * 10 + z)
+    
 def isPrime(n):  
     if n <= 1:  
         return False 
@@ -23,7 +24,6 @@ def isPrime(n):
         i += 1 
     return True
 
-K = 9
 def found(K):
     count = 0
     i = 2
@@ -34,4 +34,3 @@ def found(K):
         else:
             i += 1
     return i-1
-print(found(K))
