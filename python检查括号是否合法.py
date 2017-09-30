@@ -15,11 +15,9 @@ class Solution(object):
         for char in s:
             if char in dict.values():
                 f.append(char)
-                print (f)
             elif char in dict.keys():
                 if f == [] or dict[char] != f.pop():
                     return False
             else:
                 return False
-        print (f)
         return f == []
