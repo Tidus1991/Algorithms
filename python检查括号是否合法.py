@@ -4,8 +4,6 @@ Created on Sat Sep 30 13:55:58 2017
 
 @author: Tidus
 """
-s = '(',')','(',')'
-
 class Solution(object):
     def isValid(self, s):
         """
@@ -25,5 +23,3 @@ class Solution(object):
                 return False
         print (f)
         return f == []
-k = Solution()
-print(k.isValid(s))
