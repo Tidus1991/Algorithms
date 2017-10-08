@@ -27,6 +27,7 @@ class LinkedListNode:
         while curr_node is not None:
             if curr_node.value == value:
                 return curr_node
+            curr_node = curr_node.next
         return None
     
     def insert(self, index, value):
