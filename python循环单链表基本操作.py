@@ -50,4 +50,4 @@ class LCList:
             print(p.elem)
             if p is self._rear:
                 break
-            p = p,next
+            p = p.next
