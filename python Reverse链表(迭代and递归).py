@@ -6,8 +6,6 @@ Created on Sat Oct 14 16:45:32 2017
 """
 
 class Solution:
-# @param {ListNode} head
-# @return {ListNode}
     def reverseList(self, head):
         prev = None
         while head:
@@ -19,8 +17,6 @@ class Solution:
     
 
 class Solution2:
-# @param {ListNode} head
-# @return {ListNode}
     def reverseList(self, head):
         return self._reverse(head)
     
