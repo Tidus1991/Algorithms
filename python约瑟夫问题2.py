@@ -6,7 +6,7 @@ Created on Mon Oct 16 19:01:35 2017
 """
 
 #每个人随机获得一个10以内的死亡数字，按照自杀的人所获得的死亡数字循环杀人(第一个死亡数字随机决定)
-
+#直接取模就可以
 import random as r
 
 def JosephusProblem(num):
