@@ -12,6 +12,7 @@ Created on 2017/11/1 21:40
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
 
         """
