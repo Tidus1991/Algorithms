@@ -4,6 +4,7 @@ Created on Mon Oct 23 18:15:13 2017
 
 @author: Tidus
 """
+
 class PrioQueueError(ValueError):
     pass
 
