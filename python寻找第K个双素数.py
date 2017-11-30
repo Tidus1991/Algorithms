@@ -5,7 +5,6 @@ Created on Wed Sep 27 21:02:27 2017
 @author: Tidus
 """
 
-
 def reverse(a):
     if a <= 10:
         return a
