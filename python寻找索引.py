@@ -20,7 +20,6 @@ class Solution(object):
             return nums.index(target)
         
 
-
 '''
 the other method
 return len([x for x in nums if x<target])
